@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.magic-ball-container {
+  background-color: #4a0440;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.question-container {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  font-size: 26px;
+  color: white;
+}
+.ball-question {
+  font-size: 26px;
+  color: white;
+}
+
+.css-input {
+  padding: 5px;
+  font-size: 16px;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: #cccccc;
+  background-color: #ffffff;
+  color: #000000;
+  border-style: solid;
+  border-radius: 0px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0.75);
+  text-shadow: 0px 0px 5px rgba(146, 0, 201, 0.75);
+}
+.css-input:focus {
+  outline: none;
+}
+.testbutton {
+  color: #4a0440;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #909090;
+  box-shadow: 1px 1px 1px #383838;
+  padding: 10px 25px;
+  border-radius: 10px;
+  border: 2px solid #353535;
+}
+
+.magic-ball {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid rgb(223, 223, 223);
+  box-shadow: 0px 6px 10px 7px rgb(0 0 0 / 52%);
+}
+.ball-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
